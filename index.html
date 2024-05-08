@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat&Learn</title>
+    <link rel="stylesheet" type="text/css" href="cl.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <img src="CL_Logo.jpg" alt="CL logo">
+        <a href="barcode.html">
+            <img src="2DBarcode.jpg" alt="2D barcode img">
+        </a>
+        
+        <div class="header-content">
+            <h1 style="text-align: center;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHAT&LEARN</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to CHAT AND LEARN!</h2>
+            <h3>Overview</h3>
+            <img src="ov.png" alt="overview image" width="900" height="250">
+            <!-- <div class="rectangle"><p>Established in 2017 by Hanan Cai, CHAT&LEARN was born with a mission to make English learning accessible for children in China, regardless of their socio-economic status, and to respect the cultural and religious practices of educators who prefer not to appear on camera. We have since developed a cost-effective and "face-free" teaching approach, benefiting hundreds of students with marked improvements in English fluency.</p></div> -->
+        </section>
+        <br>
+        <br>
+        <section id="about">
+            <h2>About Us</h2>
+            <h3>Founders</h3>
+            <img src="founder.png" alt="founder image" width="900" height="250">
+            <!-- <p>Hanan Cai transitioned from practicing law in China to becoming a licensed paralegal and Notary Public in Ontario, Canada. Evelyn Liu, based in China, utilizes her extensive expertise as the head of an accounting department. Together, their diverse backgrounds and robust professional networks greatly enhance the educational services offered by CHAT&LEARN.</p> -->
+            <br>
+            <h3>Charitable Mission</h3>
+            <img src="charitable.png" alt="mission image" width="900" height="250">
+            <!-- <p>CHAT&LEARN fosters English proficiency among Chinese children and adults through interactions with native speakers. This commitment has garnered accolades from parents while providing a dependable livelihood for our teachers. In homage to our educators, we also support humanitarian initiatives, such as aiding orphans and establishing water pumps in Muslim-majority nations.</p> -->
+        </section>
+        <br>
+        <br>
+        <section id="services">
+            <h2>Joining Our Team</h2>
+            <img src="join1_1.png" alt="join our team image" width="900" height="350">
+            <hr>
+            <img src="join2_2.png" alt="join our team image" width="900" height="350">
+            <hr>
+            <img src="join3.png" alt="agreement image" width="900" height="400">
+            <hr>
+            <img src="addWeChat.png" alt="image" width="900" height="200"> 
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <h3><p>Exciting Times Ahead</p></h3>
+            <a href="mailto:chatandlearn.ca@gmail.com "><img src="Email_icon.png" alt="Email Icon" width="50" height="50">chatandlearn.ca@gmail.com 
+            </a>
+            <img src="wechat_icon.png" alt="wechat_icon" width="50" height="50" class="wechat_icon">Wechat ID: Chatandlearn 
+            <img src="whatAppIcon1.png" alt="whatAppIcon1" width="50" height="50" class="whatAppIcon1">What'sApp: 1-6476483334 <img src="person.png" alt="person image" width="50" height="50" class="person">Contact: Hanan Cai
+            
+        </section>
+    </div>
+
+    <script>
+        // Add smooth scrolling behavior to navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <footer class="myfooter" style="background-color:lightsteelblue;">  &copy; copyright 2024 CHAT & LEARN. Version 23.1.  All rights reserved.</footer>
+</body>
+
+</html>
